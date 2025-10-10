@@ -1,0 +1,67 @@
+/* Styles for highlighted text */
+
+.wiki-notes-highlight {
+  padding: 2px 0;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/* Yellow - Important */
+.highlight-yellow {
+  background-color: #ffeb3b;
+}
+
+.highlight-yellow:hover {
+  background-color: #ffd54f;
+}
+
+/* Green - Definition */
+.highlight-green {
+  background-color: #81c784;
+}
+
+.highlight-green:hover {
+  background-color: #66bb6a;
+}
+
+/* Blue - Question */
+.highlight-blue {
+  background-color: #64b5f6;
+}
+
+.highlight-blue:hover {
+  background-color: #42a5f5;
+}
+
+/* Red - Critical */
+.highlight-red {
+  background-color: #e57373;
+}
+
+.highlight-red:hover {
+  background-color: #ef5350;
+}
+
+/* Purple - Reference */
+.highlight-purple {
+  background-color: #ba68c8;
+  color: white;
+}
+
+.highlight-purple:hover {
+  background-color: #ab47bc;
+}
+
+/* Visual indicator that Alt/Ctrl+Click or Right-click removes highlight */
+.wiki-notes-highlight:hover::after {
+  content: " ✕";
+  font-size: 10px;
+  color: #333;
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.highlight-purple:hover::after {
+  color: #fff;
+}

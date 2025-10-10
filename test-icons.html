@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Icon Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .icon-test {
+            background: white;
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        img {
+            display: block;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        .label {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Icon Visibility Test</h1>
+    <p>If you can see blue squares below, the icons are working!</p>
+
+    <div class="icon-test">
+        <div class="label">16x16 Icon:</div>
+        <img src="icon16.png" alt="16x16 icon">
+        <div style="font-size: 12px; color: #666;">Actual size</div>
+    </div>
+
+    <div class="icon-test">
+        <div class="label">48x48 Icon:</div>
+        <img src="icon48.png" alt="48x48 icon">
+        <div style="font-size: 12px; color: #666;">Actual size</div>
+    </div>
+
+    <div class="icon-test">
+        <div class="label">128x128 Icon:</div>
+        <img src="icon128.png" alt="128x128 icon">
+        <div style="font-size: 12px; color: #666;">Actual size</div>
+    </div>
+
+    <hr>
+    <h2>Next Steps:</h2>
+    <ol>
+        <li>If you see blue squares above, the icons are correct</li>
+        <li>Go to chrome://extensions/</li>
+        <li>Find "Ankur's Wiki Notes" extension</li>
+        <li>Click the refresh/reload button (circular arrow icon)</li>
+        <li>The icon should now appear in your Chrome toolbar</li>
+    </ol>
+</body>
+</html>

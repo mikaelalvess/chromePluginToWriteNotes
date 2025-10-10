@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankur's Wiki Notes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Ankur's Wiki Notes</h1>
+      <div class="controls">
+        <button id="searchBtn" class="btn" title="Search notes (Ctrl+Shift+F)">🔍</button>
+        <button id="dashboardBtn" class="btn" title="All notes">📊</button>
+        <button id="exportBtn" class="btn btn-export" title="Export (Ctrl+E)">↓</button>
+        <button id="togglePreview" class="btn" title="Preview (Ctrl+P)">👁</button>
+      </div>
+    </div>
+
+    <div class="page-info">
+      <input type="text" id="searchBox" class="search-box" placeholder="🔍 Search notes..." style="display: none;">
+      <div id="pageTitle" class="page-title">Loading...</div>
+      <div id="quickStats" class="quick-stats"></div>
+    </div>
+
+    <div class="editor-container">
+      <div class="editor-pane" id="editorPane">
+        <textarea id="noteEditor" placeholder="Start writing in wiki markup...
+
+Examples:
+**bold** or '''bold'''
+//italic// or ''italic''
+[[link]]
+* bullet list
+# numbered list
+== Heading ==
+=== Subheading ===
+----  (horizontal line)
+"></textarea>
+      </div>
+
+      <div class="preview-pane" id="previewPane" style="display: none;">
+        <div id="preview"></div>
+      </div>
+    </div>
+
+    <div class="help-toggle">
+      <button id="toggleHelp" class="btn-link">Show Wiki Syntax Help</button>
+    </div>
+
+    <div class="help-section" id="helpSection" style="display: none;">
+      <h3>Wiki Markup Syntax</h3>
+      <ul>
+        <li><code>**text**</code> or <code>'''text'''</code> - Bold</li>
+        <li><code>//text//</code> or <code>''text''</code> - Italic</li>
+        <li><code>__text__</code> - Underline</li>
+        <li><code>~~text~~</code> - Strikethrough</li>
+        <li><code>[[link text]]</code> - Internal link</li>
+        <li><code>[[url|label]]</code> - External link</li>
+        <li><code>* item</code> - Bullet list</li>
+        <li><code># item</code> - Numbered list</li>
+        <li><code>== Heading ==</code> - H2 heading</li>
+        <li><code>=== Heading ===</code> - H3 heading</li>
+        <li><code>----</code> - Horizontal line</li>
+        <li><code>`code`</code> - Inline code</li>
+      </ul>
+
+      <h3>Features</h3>
+      <ul>
+        <li><strong>Highlight text:</strong> Select text on any page, right-click → "Highlight Only"</li>
+        <li><strong>Add to notes:</strong> Select text → right-click → "Add as Heading" or "Add as Paragraph"</li>
+        <li><strong>Remove highlight:</strong> Right-click on highlighted text → "Remove Highlight" (or Alt/Ctrl + Click)</li>
+        <li><strong>Per-page notes:</strong> Notes are saved separately for each webpage</li>
+        <li><strong>Export:</strong> Click Export or press Ctrl+E to save notes and highlights</li>
+        <li><strong>Keyboard shortcuts:</strong> Ctrl+S (save), Ctrl+P (preview), Ctrl+E (export)</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="wiki-parser.js"></script>
+  <script src="sidepanel-minimalist.js"></script>
+</body>
+</html>
